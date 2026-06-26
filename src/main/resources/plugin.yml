@@ -1,0 +1,13 @@
+name: SweetSync
+version: '${version}'
+main: top.mrxiaom.sweet.sync.SweetSync
+api-version: 1.13
+softdepend:
+  - PlaceholderAPI
+authors: [ MrXiaoM ]
+folia-supported: true
+# PluginBase Libraries ${libraries_config}
+commands:
+  sweetsync:
+    description: 'The main command of SweetSync'
+    aliases: [ ssync ]

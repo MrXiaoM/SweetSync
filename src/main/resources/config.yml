@@ -1,0 +1,17 @@
+
+# 要同步的模块
+sync-modules:
+  # 物品栏
+  inventory:
+    enable: true
+  # 末影箱
+  ender-chest:
+    enable: true
+
+# 数据同步时机
+# PRE_LOGIN - 登录之前同步，会接管新玩家新建原版数据的逻辑
+# JOIN_GAME - 加入游戏后同步，会阻塞玩家进服事件
+load-login-phase: PRE_LOGIN
+
+# MySQL 数据锁的超时时间
+lock-timeout: 10
